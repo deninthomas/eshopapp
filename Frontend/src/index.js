@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import Navigation from './common/Navigation';
-import Product from './components/product/Product';
+//import Navigation from './common/Navigation';
+import ProductDetails from './components/product/ProductDetails';
+//import Product from './components/product/ProductDetails';
 //import Home from './components/home/Home';
 
 
@@ -12,6 +13,6 @@ import Product from './components/product/Product';
 // );
 
 ReactDOM.render(
-  <BrowserRouter><Product/></BrowserRouter>,
+  <BrowserRouter><ProductDetails/></BrowserRouter>,
     document.getElementById('root')
   );
